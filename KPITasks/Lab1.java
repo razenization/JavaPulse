@@ -3,11 +3,11 @@ package hwKPI;
 import java.util.Scanner;
 
 /**
- * C2 = "-"
- * C3 = 1
- * C5 = "-"
- * C7 = 1 double
- */
+ C2 = "-"
+ C3 = 1
+ C5 = "-"
+ C7 = 1 double
+ **/
 
 public class Lab1 {
 
@@ -17,13 +17,13 @@ public class Lab1 {
         double result = 0;
         final int C = 1;
         try {
-            System.out.println("Enter A");
+            System.out.print("Enter A :");
             a = input.nextInt();
-            System.out.println("Enter N");
+            System.out.print("Enter N :");
             n = input.nextInt();
-            System.out.println("Enter B");
+            System.out.print("Enter B :");
             b = input.nextInt();
-            System.out.println("Enter M");
+            System.out.print("Enter M :");
             m = input.nextInt();
             for (double i = a; i <= n; ++i) {
                 for (double j = b; j <= m; ++j) {
