@@ -7,7 +7,7 @@ import java.util.Scanner;
  C3 = 1
  C5 = "-"
  C7 = 1 double
- **/
+ */
 
 public class Lab1 {
 
