@@ -13,18 +13,18 @@ public class Lab1 {
 
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-        int  a, b, n, m;
+        double a, b, n, m;
         double result = 0;
         final int C = 1;
         if (scan.hasNextDouble()) {
             System.out.print("Enter A : ");
-            a = input.nextInt();
+            a = scan.nextInt();
             System.out.print("Enter N : ");
-            n = input.nextInt();
+            n = scan.nextInt();
             System.out.print("Enter B : ");
-            b = input.nextInt();
+            b = scan.nextInt();
             System.out.print("Enter M : ");
-            m = input.nextInt();
+            m = scan.nextInt();
             for (double i = a; i <= n; ++i) {
                 for (double j = b; j <= m; ++j) {
                     if ((i - C) != 0) {
